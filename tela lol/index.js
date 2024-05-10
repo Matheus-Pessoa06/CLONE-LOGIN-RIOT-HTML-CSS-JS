@@ -21,7 +21,7 @@ const handleChange = () =>{
     }
 }
 
-//O for each executa a funcao para cada elemento do array
+//O foreach executa a funcao para cada elemento do array
 inputs.forEach((input) => input.addEventListener('focus', handleFocus));
 inputs.forEach((input) => input.addEventListener('focusout', handleFocusout));
 inputs.forEach((input) => input.addEventListener('input', handleChange));
